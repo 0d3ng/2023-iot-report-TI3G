@@ -81,3 +81,11 @@ Jawab : <br>
 
 
 **TUGAS**
+
+Buatlah sebuah dashboard website untuk memonitoring dan control pada sebuah ruang lobby, ruang kajur, dan ruang dosen. Masing-masing ruang dengan detail node yang dibutuhkan pada node dashboard sebagai berikut;
+
+1. Tab Home terdiri dari group Control, Monitoring, dan Cahaya.
+
+- Group Control memiliki 3 node switch dan 3 text statis, fungsi dari group ini adalah untuk menghidupkan dan mematikan led RGB.
+- Group Monitoring 2 node chart untuk menampilkan suhu dan kelembaban.
+- Group Cahaya terdiri dari text dan gauge, text untuk menampilkan kategori terang, redup, dan gelap. Sedangkan node gauge untuk menampilkan nilai sensor LDR.

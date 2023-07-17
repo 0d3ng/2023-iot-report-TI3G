@@ -31,7 +31,7 @@ Hasil pada MQTT Explorer<br>
 Jawab : Digunakan untuk mengaktifkan protokol WebSockets pada broker Mosquitto. Dengan mengaktifkan protokol WebSockets, broker Mosquitto dapat melayani koneksi MQTT melalui WebSocket, yang memungkinkan aplikasi web dan klien yang mendukung WebSocket untuk terhubung dan berkomunikasi dengan broker MQTT.<br>
 
 2. Silakan ganti menjadi false pada per_listener_settings true, restart mosquitto. Apakah yang akan terjadi atau pengaruhnya apa?<br>
-Jawab : <br>
+Jawab : Secara default, Mosquitto memungkinkan penggunaan pengaturan yang berbeda untuk setiap pendengar yang didefinisikan dalam file konfigurasi. Dengan pengaturan per_listener_settings yang diaktifkan (true), Anda dapat menentukan pengaturan khusus untuk setiap pendengar dengan memberikan blok konfigurasi yang terpisah untuk setiap pendengar yang didefinisikan. <br>
 
 3. Buatlah user yang lain, kemudian lakukan subscribe dan publish message!<br>
 Jawab : 
